@@ -16,14 +16,14 @@ function App() {
             <Route path="directory" element={<Directory />} />
           </Route>
 
-          <Route
+          {/* <Route
             path="*"
             element={
               <main style={{ padding: '1rem' }}>
                 <p>There&apos;s nothing here!</p>
               </main>
             }
-          />
+          /> */}
         </Routes>
       </Suspense>
     </BrowserRouter>
